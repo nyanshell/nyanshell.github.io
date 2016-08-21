@@ -13,7 +13,7 @@
     "history": "^3.0.0",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
-    "react-mdl": "^1.6.1",
+    "react-mdl": "^1.7.0",
     "react-redux": "^4.4.5",
     "redux": "^3.5.2",
     "whatwg-fetch": "^1.0.0"
@@ -48,6 +48,7 @@
     "json-loader": "^0.5.4",
     "markdown-it": "^7.0.0",
     "mocha": "^2.5.3",
+    "pako": "^1.0.3",
     "path-to-regexp": "^1.5.3",
     "pixrem": "^3.0.1",
     "pleeease-filters": "^3.0.0",
