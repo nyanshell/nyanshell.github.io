@@ -11,8 +11,11 @@
 import React, { PropTypes } from 'react';
 import cx from 'classnames';
 import Header from './Header';
-import Footer from '../Footer';
+// import Footer from '../Footer';
 import s from './Layout.css';
+import Menu from '../Menu/src/menu';
+import MainButton from '../Menu/src/main-button';
+import ChildButton from '../Menu/src/child-button';
 
 class Layout extends React.Component {
 
@@ -29,13 +32,22 @@ class Layout extends React.Component {
   }
 
   render() {
+    let effect = 'zoomin',
+        pos = 'br',
+        method = 'hover';
     return (
       <div className="mdl-layout mdl-js-layout" ref={node => (this.root = node)}>
         <div className="mdl-layout__inner-container">
-          <Header />
           <main className="mdl-layout__content">
             <div {...this.props} className={cx(s.content, this.props.className)} />
-            <Footer />
+            <Menu effect={effect} method={method} position={pos}>
+              <MainButton iconResting="home" iconActive="info" />
+              <ChildButton
+                onClick={function(e){ e.preventDefault(); }}
+                icon="star"
+                label="View on Github"
+                href="https://github.com/nobitagit/react-material-floating-button/" />
+            </Menu>
           </main>
         </div>
       </div>
