@@ -10,7 +10,6 @@ var buttons = {
 };
 
 function getChildren(children){
-  // console.log('get children', Children.forEach);
   Children.forEach(children, function(child){
     if(child.type === MainButton){
       buttons.main = child;
