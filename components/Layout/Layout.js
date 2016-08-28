@@ -45,8 +45,18 @@ class Layout extends React.Component {
               <ChildButton
                 onClick={function(e){ e.preventDefault(); }}
                 icon="star"
-                label="View on Github"
-                href="https://github.com/nobitagit/react-material-floating-button/" />
+                label="Github"
+                href="https://github.com/gestapolur" />
+              <ChildButton
+                onClick={function(e){ e.preventDefault(); }}
+                icon="tag_faces"
+                label="Twitter"
+                href="https://twitter.com/gestapolur" />
+              <ChildButton
+                onClick={function(e){ e.preventDefault(); }}
+                icon="account_box"
+                label="About Me"
+                href="https://about.me/gestapolur" />
             </Menu>
           </main>
         </div>
