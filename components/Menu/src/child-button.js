@@ -2,12 +2,12 @@
 
 import React from 'react';
 import classnames from 'classnames';
-import s from '../mfb/src/mfb.css';
+// import s from '../mfb/src/mfb.css';
+import { Icon } from 'react-mdl';
 
 
 var ChildButton = React.createClass({
   render: function(){
-    var iconClass = classnames('mfb-component__child-icon', this.props.icon);
     var className = classnames('mfb-component__button--child', this.props.className);
     return (
       <li>
@@ -15,7 +15,7 @@ var ChildButton = React.createClass({
            data-mfb-label={this.props.label}
            onClick={this.props.onClick}
            className={className}>
-          <i className={iconClass}></i>
+          <Icon className="mfb-component__child-icon" name={this.props.icon}/>
         </a>
       </li>
     );
