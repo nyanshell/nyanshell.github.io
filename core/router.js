@@ -65,10 +65,20 @@ function resolve(routes, context) {
         route.load(),
         ...keys.map(key => {
           const query = route.data[key];
+          let splitedPath = route.path.split('/');
+          let commonPath = '';
+          for (let i = 0; i < splitedPath.length; i ++ ) {
+            if ( !context.pathname.startsWith(splitedPath.slice(0, i+1).join('/')) ) {
+              break;
+            }
+            commonPath = splitedPath.slice(0, i+1).join('/');
+          }
+          let routeKey = route.path.replace(commonPath, '');
+          let routeParam = context.pathname.replace(commonPath, '');
           const method = query.substring(0, query.indexOf(' ')); // GET
           const url = query.substr(query.indexOf(' ') + 1);      // /api/tasks/$id
-          // TODO: Replace query parameters with actual values coming from `params`
-          return fetch(url, { method }).then(resp => resp.json());
+          const matchedUrl = url.replace(routeKey.replace(':', '$'), routeParam);
+          return fetch(matchedUrl, { method }).then(resp => resp.json());
         }),
       ]).then(([Page, ...data]) => {
         const props = keys.reduce((result, key, i) => ({ ...result, [key]: data[i] }), {});
