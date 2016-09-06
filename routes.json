@@ -4,7 +4,7 @@
     "page": "./pages/home",
     "chunk": "main",
     "data": {
-      "articles": "GET https://gist.githubusercontent.com/koistya/a32919e847531320675764e7308b796a/raw/articles.json"
+      "articles": "GET ./articles/list.json"
     }
   },
   {
@@ -17,7 +17,10 @@
     "page": "./pages/about"
   },
   {
-    "path": "/tasks/:status(pending|completed)?",
-    "page": "./pages/home"
+  "path": "/posts/:id",
+  "page": "./pages/posts",
+  "data": {
+      "article": "GET ../articles/$id.json"
+    }
   }
 ]
