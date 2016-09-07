@@ -9,9 +9,11 @@
  */
 
 import React, { PropTypes } from 'react';
+import { List, ListItem, ListItemContent, Grid, Cell } from 'react-mdl';
 import Layout from '../../components/Layout';
 import s from './styles.css';
 import { title, html } from './index.md';
+
 
 class HomePage extends React.Component {
 
@@ -27,12 +29,22 @@ class HomePage extends React.Component {
     return (
       <Layout className={s.content}>
         <div dangerouslySetInnerHTML={{ __html: html }} />
-        <h4>Articles</h4>
-        <ul>
+        <h4>Write Works</h4>
+        <List>
           {this.props.articles.map((article, i) =>
-            <li key={i}><a href={article.url}>{article.title}</a> by {article.author}</li>
+            <ListItem key={i}>
+              <ListItemContent>
+                <div>
+                  <a className={s.a} href={article.url}>{article.title}</a>
+                </div>
+                <div>
+                  {article.date}
+                </div>
+                <hr/>
+              </ListItemContent>
+            </ListItem>
           )}
-        </ul>
+        </List>
         <p>
           <br /><br />
         </p>
