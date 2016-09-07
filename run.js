@@ -17,10 +17,10 @@ const webpack = require('webpack');
 
 // TODO: Update configuration settings
 const config = {
-  title: 'React Static Boilerplate',        // Your website title
-  url: 'https://rsb.kriasoft.com',          // Your website URL
-  project: 'react-static-boilerplate',      // Firebase project. See README.md -> How to Deploy
-  trackingID: 'UA-XXXXX-Y',                 // Google Analytics Site's ID
+  title: 'The Core Nyanshell',        // Your website title
+  url: 'https://nyanshell.com',          // Your website URL
+  project: 'gestapolur.github.io',      // Firebase project. See README.md -> How to Deploy
+  trackingID: 'UA-6250470-5',                 // Google Analytics Site's ID
 };
 
 const tasks = new Map(); // The collection of automation tasks ('clean', 'build', 'publish', etc.)
