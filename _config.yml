@@ -19,8 +19,8 @@ description: > # this means to ignore newlines until "baseurl:"
   虛無的記憶與故事。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nyanshell.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: gestapolur
-github_username:  gestapolur
+twitter_username: nyanshell
+github_username:  nyanshell
 
 # Build settings
 markdown: kramdown
