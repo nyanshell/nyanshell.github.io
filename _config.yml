@@ -40,3 +40,12 @@ google_analytics: UA-6250470-5
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "news_item"
+      image: /assets/twitter-card.png
