@@ -5,10 +5,11 @@ date:   2022-10-31 14:59:32 +0800
 categories: memo
 tags: Mastodon SNS
 ---
+P.S: My Mastodon account: [@nyanshell@mastodon.nyanshell.com](https://mastodon.nyanshell.com/web/@nyanshell)
 
 Several years ago, I took a glimpse of [Mastodon](https://github.com/mastodon/mastodon) and thought I could deploy one. However, I soon forgot this matter. But [recent news about Twitter](https://www.nytimes.com/live/2022/10/28/business/elon-musk-twitter) makes me realize maybe it's better to have a Twitter alternative. So after a long time of procrastination, I finally decided to deploy a Mastodon instance.
 
-**Why self-hosted**: There're many public Mastodon instances that let you create an account freely. You still need to follow their site ToS, and most of them don't have an SLA. Since I'm using a decentralized service, deploying it myself is an interesting part(Maybe the most!), and it's a good chance to get familiar with the ecosystem.
+**Why self-hosted**: Because it's cool. There're many public Mastodon instances that let you create an account freely. You still need to follow their site ToS, and most of them don't have an SLA. Since I'm using a decentralized service, deploying it myself is an interesting part(Maybe the most!), and it's a good chance to get familiar with the ecosystem.
 
 # Service Architecture After Deployment
 
