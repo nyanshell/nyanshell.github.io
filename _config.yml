@@ -21,6 +21,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nyanshell.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nyanshell
 github_username:  nyanshell
+# Mastodon instances
+mastodon:
+- username: nyanshell
+  instance: mastodon.nyanshell.com
 
 # Build settings
 markdown: kramdown
