@@ -54,3 +54,5 @@ defaults:
     values:
       layout: "news_item"
       image: /assets/twitter-card.png
+
+include: [".well-known"]
