@@ -128,3 +128,12 @@ After I deployed these services with docker swarm, I felt I had some views to wr
 ## Conclusion
 
 The docker swarm is a nice orchestrator for home IT applications. It has good maintainability, portability, and observability. And keep the orchestration file relatively simple at the same time. I didn't find an equivalent at the moment. If you know some alternatives, please tell me, and I'm willing to have a try.
+
+## Reference
+
+- [Deploy a stack to a swarm](https://docs.docker.com/engine/swarm/stack-deploy/)
+- [Using Docker MacVLAN Networks](https://blog.oddbit.com/post/2018-03-12-using-docker-macvlan-networks/)
+- [Allowing macvlan-networked docker containers to access the host](https://kcore.org/2020/08/18/macvlan-host-access/)
+- [How to backup your (Nextcloud) instance](https://github.com/nextcloud-snap/nextcloud-snap/wiki/How-to-backup-your-instance)
+- [The Difference Between Docker Compose And Docker Stack](https://vsupalov.com/difference-docker-compose-and-docker-stack/)
+- [Start containers automatically](https://docs.docker.com/config/containers/start-containers-automatically/)
