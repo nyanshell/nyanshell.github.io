@@ -4,6 +4,9 @@ title:  "Exploring Stable Diffusion and ControlNet: Challenges in Precisely Gene
 date:   2023-03-14 13:30:32 +0800
 categories: memo
 tags: stable_diffusion ControlNet
+largeimage: /assets/im_20230314095849_000_211825335.png
+image: /assets/im_20230314095849_000_211825335.png
+summary: Explores the challenges faced in generating a high-quality image from a VRoid model using Stable Diffusion models and ControlNet.
 ---
 
 ## The problem
