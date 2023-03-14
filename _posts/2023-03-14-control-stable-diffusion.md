@@ -68,6 +68,7 @@ After spending several hours adjusting the parameters, I came to the realization
 |:--:|
 |My ideal image quality(This one fully generated with prompt words).|
 
+**update**: Maybe the best one at current stage: ![best one]({{ site.url }}/assets/im_20230314123756_000_547898418.png)
 
 ## Reference
 
