@@ -157,6 +157,10 @@ $ unzip clover.schema-1.1.4.zip
    ("C-`" . 'rime-send-keybinding)))
 ```
 
+I added all relevant configure [here](https://gist.github.com/nyanshell/5267583a1a004f22c4aee280bf2789e8).
+
+**NOTICE**: If you use custom compiled librime you may don't need `(require 'rime)`, otherwise emacs won't load your custom compiled `librime.so`.
+
 ## Showcase
 
 ![emacs-rime]({{ site.url }}/assets/emacs-rime.jpg)
