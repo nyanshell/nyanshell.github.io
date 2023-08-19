@@ -1,0 +1,17 @@
+---
+layout: post
+title: a method to unbrick HTC ONE S S3( villec2 ) with third party recovery & rom
+  flashed
+date: '2013-04-29T19:46:00.000+08:00'
+author: G.L.
+tags:
+- htc
+- flash
+- android
+- kirisame
+modified_time: '2013-04-29T19:50:50.503+08:00'
+blogger_id: tag:blogger.com,1999:blog-5749148745394062032.post-9208779701282317500
+blogger_orig_url: http://marisa.kirisame.tips/2013/04/villec2-flash.html
+---
+
+<span style="color: red;"><b><span style="font-size: large;">NOTICE: YOU MUST KNOW HOW TO USE adb &amp; fastboot AT LEAST OR IT MAY HARMFUL TO YOUR DEVICE!</span></b></span> <br />After waste two days, finally got villec2 restore.<br />This method is for those who bricked HTC ONE S S3( villec2 ) with third party recovery &amp; rom(like twrp &amp; CM ) flashed:<br /><br /><ol><li>find your IMG recovery( like PJ40IMG_VILLEC2_U_ICS_40_HTCCN_CHS_1.11.1400.140_Radio_16.17.20.02U_16.07.20.18_M_release_279226_signed.zip , not OTA ) and CID must equal to your device's CID,( IMG's CID in android-info.txt and you could find yours in fastboot oem readcid );</li><li>rename it like PJ40IMG.zip(first segment in *.zip )</li><li>unzip boot_signed.img &amp; recovery_signed.img in *.zip , flash them use fastboot( fastboot flash recovery recovery_signed.img &amp; fastboot flash boot boot_signed.img ), and erase cache;</li><li>make sure your device was relocked;</li><li>reboot to RUU( use fastboot oem rebootRUU );</li><li>fastboot flash zip &lt;Your_zip_file_name&gt;.zip</li><li>after flash was done ,reboot device </li><li>now your device may unbricked.</li></ol><br />ps: It seems that villec2 sell in China have 4 buttons( 3 in other country? ), it maybe a possible reason that many official OTA / nonofficial ROMs doesn't support this device.
