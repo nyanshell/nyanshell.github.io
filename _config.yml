@@ -29,10 +29,11 @@ mastodon:
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 google_analytics: G-WK6RNZSZQF
 # Exclude from processing.
@@ -46,6 +47,13 @@ google_analytics: G-WK6RNZSZQF
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+minima:
+  skin: dark
+  social_links:
+    - { platform: github,  user_url: "https://github.com/nyanshell" }
+    - { platform: mastodon,  user_url: "https://mastodon.nyanshell.com/web/@nyanshell" }
+    - { platform: rss,  user_url: "https://nyanshell.com/feed.xml" }
 
 defaults:
   -
