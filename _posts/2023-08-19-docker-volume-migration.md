@@ -5,7 +5,7 @@ date:   2023-08-19 20:07:23 +0900
 categories: memo
 tags: docker grafana prometheus
 largeimage: /assets/im_20230701083235_003_54724152.png
-image: /assets/im_20230701083235_003_54724152.png
+image: /assets/im_20230819164120_002_999580740.jpg
 summary:
 ---
 
