@@ -28,4 +28,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 require 'json'
 require 'open-uri'
 
-gem 'github-pages', "225"
+gem 'github-pages', "228"
