@@ -65,3 +65,5 @@ defaults:
       image: /assets/twitter-card.png
 
 include: [".well-known"]
+
+show_excerpts: true
