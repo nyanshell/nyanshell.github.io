@@ -6,7 +6,7 @@ categories: memo
 tags: docker grafana prometheus
 largeimage: /assets/im_20230701083235_003_54724152.png
 image: /assets/im_20230819164120_002_999580740.jpg
-summary:
+summary: "A step-by-step guide on how to migrate Docker volumes for Grafana and Prometheus services. The author outlines the process of dumping the existing Docker volumes, transferring the backup data to a new machine, and restoring the volumes to the new environment. This article provides a practical approach to ensuring data continuity when migrating Docker-based services to a new infrastructure."
 ---
 
 Over the past few weeks, I migrated the services that I had deployed on my Chromebook Pixel and old Celeron NUC to my
