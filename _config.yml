@@ -67,3 +67,5 @@ defaults:
 include: [".well-known"]
 
 show_excerpts: true
+
+layout_scale: 1.25
