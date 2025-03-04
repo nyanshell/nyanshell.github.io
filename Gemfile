@@ -27,6 +27,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 require 'json'
 require 'open-uri'
 
-gem 'github-pages', "231"
+gem 'github-pages', "232"
 
-gem "webrick", "~> 1.8"
+gem "webrick", "~> 1.9"
