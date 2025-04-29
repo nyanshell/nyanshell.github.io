@@ -41,6 +41,7 @@ On a whim, I decided to write down the alcohol I drank that still remains in my 
 |Talisker Storm|4|Also good when Talisker 10 is out of stock.|
 |Rowan’s Creek|4|Interesting bourbon, a little bit black sugar flavor.|
 |The Singleton of Glen Ord 12|3.8|I forgot the taste, good but not that unique.|
+|Elijah Craig Small Batch Bourbon|3.5|Plain bourbon, no specific impression.|
 
 # 焼酎
 
