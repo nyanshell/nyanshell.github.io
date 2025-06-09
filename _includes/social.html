@@ -1,0 +1,31 @@
+<ul class="social-media-list">
+  {%- if site.github_username -%}
+  <li>
+    <a rel="me" href="https://github.com/{{ site.github_username }}" target="_blank" title="GitHub Profile">
+      <svg class="svg-icon grey">
+        <use xlink:href="{{ 'assets/minima-social-icons.svg#github' | relative_url }}"></use>
+      </svg>
+    </a>
+  </li>
+  {%- endif -%}
+  
+  {%- for mstdn in site.mastodon -%}
+  <li>
+    <a rel="me" href="https://{{ mstdn.instance }}/@{{ mstdn.username }}" target="_blank" title="Mastodon Profile">
+      <svg class="svg-icon grey">
+        <use xlink:href="{{ 'assets/minima-social-icons.svg#mastodon' | relative_url }}"></use>
+      </svg>
+    </a>
+  </li>
+  {%- endfor -%}
+  
+  {%- if site.rss -%}
+  <li>
+    <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}" target="_blank" title="RSS Feed">
+      <svg class="svg-icon grey">
+        <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+      </svg>
+    </a>
+  </li>
+  {%- endif -%}
+</ul>

@@ -20,12 +20,14 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nyanshell.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nyanshell
-github_username:  nyanshell
+github_username: nyanshell
 title_image: https://nyanshell.com/assets/twitter-card.png
 # Mastodon instances
 mastodon:
 - username: nyanshell
   instance: mastodon.nyanshell.com
+
+rss: rss
 
 # Build settings
 markdown: kramdown
@@ -50,10 +52,6 @@ google_analytics: G-WK6RNZSZQF
 
 minima:
   skin: dark
-  social_links:
-    - { platform: github,  user_url: "https://github.com/nyanshell" }
-    - { platform: mastodon,  user_url: "https://mastodon.nyanshell.com/web/@nyanshell" }
-    - { platform: rss,  user_url: "https://nyanshell.com/feed.xml" }
 
 defaults:
   -

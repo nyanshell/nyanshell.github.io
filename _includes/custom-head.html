@@ -27,4 +27,49 @@
 html {
   font-size: calc(16px * {{ site.layout_scale }});
 }
+
+/* Fix social media icons styling */
+.social-links .svg-icon {
+  width: 16px;
+  height: 16px;
+  background: none !important;
+  fill: currentColor;
+}
+
+.social-links .social-media-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 12px;
+}
+
+.social-links .social-media-list li {
+  margin: 0;
+}
+
+.social-links a {
+  color: #828282;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #424242;
+}
+
+/* Make article titles smaller */
+.post-list h3 {
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+
+.post-list h3 a {
+  color: inherit;
+}
+
+/* Remove white border from site header */
+.site-header {
+  border-top: none !important;
+  border-bottom: none !important;
+}
 </style>
